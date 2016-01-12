@@ -1,0 +1,42 @@
+VERSION=1.0 (by netClass::netPrint())
+N=19	L=21
+I=0	W=!NULL@-1@
+I=1	W=!NULL@-1@
+I=2	W=sil@334@
+I=3	W=sil@334@
+I=4	W=bu@22@
+I=5	W=yao@395@
+I=6	W=zhe@423@
+I=7	W=yang@394@
+I=8	W=ha@121@
+I=9	W=lei@181@
+I=10	W=lu@196@
+I=11	W=ya@391@
+I=12	W=ka@157@
+I=13	W=lei@181@
+I=14	W=lu@196@
+I=15	W=ya@391@
+I=16	W=ou@255@
+I=17	W=mai@207@
+I=18	W=ga@102@
+J=0	S=0	E=2
+J=1	S=2	E=4
+J=2	S=2	E=8
+J=3	S=2	E=12
+J=4	S=2	E=16
+J=5	S=3	E=1
+J=6	S=4	E=5
+J=7	S=5	E=6
+J=8	S=6	E=7
+J=9	S=7	E=3
+J=10	S=8	E=9
+J=11	S=9	E=10
+J=12	S=10	E=11
+J=13	S=11	E=3
+J=14	S=12	E=13
+J=15	S=13	E=14
+J=16	S=14	E=15
+J=17	S=15	E=3
+J=18	S=16	E=17
+J=19	S=17	E=18
+J=20	S=18	E=3

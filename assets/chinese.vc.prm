@@ -1,0 +1,22 @@
+# This is a comment
+# Remember to leave a blank before and after the equal signs
+
+language = chinese
+wavFile = dummy
+txtFile = dummy
+sylFile = dummy
+netFile = dummy
+feaType = MFCC_E_D_A
+netType = 1
+compareMode = 1
+probFallBelow = 76800
+maxCandidateNum = 1200
+getPitch = 0
+timberScoreWeight = 80
+pitchScoreWeight = 20
+targetCmFile = dummy
+macroFile = "/sdcard/recData/chinese.macb"
+dicFile = "/sdcard/recData/chinese.dic"
+sqrtTablePath = "/sdcard/recData/sqrtTable.bin"
+outputDir = "output"
+useWaveReject = 0

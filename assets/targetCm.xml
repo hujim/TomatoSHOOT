@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<confidenceMeasure>
+	<version>1.1</version><!--File format version-->
+	<timberScore>92.91</timberScore><!--Timber score-->
+	<pitchScore>1.07</pitchScore><!--Pitch score-->
+	<discountedScores>-1 -1 -1</discountedScores><!--All discounted scores-->
+	<timberScores>-1 -1 -1</timberScores><!--All original scores-->
+	<discountFactor>0 0 0 0 0 0</discountFactor><!--Discount factors for computing the discounted scores-->
+	<discountReason>Incomplete Viterbi search path_No. of over-short syllables_No. of overlong syllables_No. of sp longer than 0.25 sec_Difference between identified and actual no. of syllables_Ratio between the longest and shortest syllables greater than 4</discountReason><!--Reasons for computing discount factors-->
+	<nodeNum>9</nodeNum><!--Number of nodes-->
+	<nodeList><!--List of nodes, which each node is a word (for English) or a syllable (for Chinese)-->
+		<node><!--A node is a word (for English) or a syllable (for Chinese)-->
+			<name>sil</name><!--Phonetic alphabets of the node-->
+			<interval>0 0.11</interval><!--Time span of the node, in seconds-->
+			<text>sil</text><!--Text of the node (empty if the node is sil/sp)-->
+			<timberScore>-1</timberScore><!--Timber score of the node (-1 if the node is sil/sp)-->
+			<pitchScore>-1</pitchScore><!--Pitch score of the node (-1 if the node is sil/sp)-->
+			<pitch>0 0 0 0 0 0 0 0 0 0 0</pitch><!--Pitch of the node (0 if no pitch at all)-->
+			<volume>0</volume><!--Volume of the node (0 if not computed)-->
+			<timberScores>-1 -1 -1</timberScores><!--All scores of the node (primarily for debugging)-->
+			<phoneNum>1</phoneNum><!--Number of phones in the node-->
+			<phoneList><!--List of phones in the node-->
+				<phone>
+					<name>sil</name><!--Phonetic alphabets for the node-->
+					<interval>0 0.11</interval><!--Time span of the phone, in seconds-->
+					<timberScore>-1</timberScore><!--Score of the node (-1 if the node is sil/sp)-->
+					<pitch>0 0 0 0 0 0 0 0 0 0 0</pitch><!--Pitch of the node (0 if no pitch at all)-->
+					<cumLogProb>0</cumLogProb><!--Cumulated log probability of the phone-->
+					<rankRatio>-1</rankRatio><!--Rank ratio of the phone-->
+					<competingModel></competingModel><!--Competing models of the phone-->
+					<competingModelLogProb></competingModelLogProb><!--Log probabilities of the competing models of the phone-->
+					<timberScores>-1 -1 -1</timberScores><!--All scores of the phone (primarily for debugging)-->
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>er</name>
+			<interval>0.11 1.13</interval>
+			<text>er</text>
+			<timberScore>100</timberScore>
+			<pitchScore>0.26</pitchScore>
+			<pitch>67.35 67.35 67.35 67.35 67.35 65.7 65.7 65.7 64.93 64.93 66.51 68.24 68.24 67.35 67.35 67.35 67.35 67.35 67.35 66.51 66.51 69.17 72.33 73.52 81.17 83.21 83.21 83.21 83.21 83.21 83.21 83.21 81.17 83.21 83.21 83.21 83.21 83.21 83.21 79.35 79.35 79.35 77.7 76.19 76.19 76.19 76.19 76.19 74.81 74.81 79.35 79.35 79.35 76.19 76.19 76.19 76.19 76.19 74.81 73.52 73.52 74.81 74.81 74.81 74.81 74.81 74.81 74.81 74.81 74.81 76.19 76.19 76.19 79.35 79.35 65.7 64.93 64.93 64.93 64.93 64.93 64.93 64.93 64.19 64.19 64.19 64.19 63.49 63.49 62.81 62.15 61.52 60.33 59.76 59.76 59.76 59.76 59.76 59.21 58.16 57.66 0</pitch>
+			<volume>0</volume>
+			<timberScores>100 -1 -1</timberScores>
+			<phoneNum>2</phoneNum>
+			<phoneList>
+				<phone>
+					<name>err+sil</name>
+					<interval>0.11 1.12</interval>
+					<timberScore>100</timberScore>
+					<pitch>67.35 67.35 67.35 67.35 67.35 65.7 65.7 65.7 64.93 64.93 66.51 68.24 68.24 67.35 67.35 67.35 67.35 67.35 67.35 66.51 66.51 69.17 72.33 73.52 81.17 83.21 83.21 83.21 83.21 83.21 83.21 83.21 81.17 83.21 83.21 83.21 83.21 83.21 83.21 79.35 79.35 79.35 77.7 76.19 76.19 76.19 76.19 76.19 74.81 74.81 79.35 79.35 79.35 76.19 76.19 76.19 76.19 76.19 74.81 73.52 73.52 74.81 74.81 74.81 74.81 74.81 74.81 74.81 74.81 74.81 76.19 76.19 76.19 79.35 79.35 65.7 64.93 64.93 64.93 64.93 64.93 64.93 64.93 64.19 64.19 64.19 64.19 63.49 63.49 62.81 62.15 61.52 60.33 59.76 59.76 59.76 59.76 59.76 59.21 58.16 57.66</pitch>
+					<cumLogProb>-1757549</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>a+sil ann+sil e+sil enn+sil er+sil ernn+sil err+sil i+sil ii+sil inn+sil n+sil ng+sil o+sil onn+sil u+sil unn+sil yu+sil</competingModel>
+					<competingModelLogProb>-2478741 -2296953 -2593450 -2678369 -2554062 -2341005 -1757549 -2597863 -2555942 -2602228 -2300077 -2220676 -2646831 -2681009 -2690843 -2651648 -2712384</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>sp</name>
+					<interval>1.12 1.13</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>shi</name>
+			<interval>1.13 1.47</interval>
+			<text>shi</text>
+			<timberScore>83.96</timberScore>
+			<pitchScore>5.89</pitchScore>
+			<pitch>0 0 0 0 0 0 0 0 0 0 0 0 0 0 58.68 58.68 58.16 58.16 58.16 58.16 58.16 58.16 57.66 57.66 58.16 58.16 58.16 58.16 58.68 58.68 59.21 59.21 58.68 0</pitch>
+			<volume>0</volume>
+			<timberScores>83.96 -1 -1</timberScores>
+			<phoneNum>3</phoneNum>
+			<phoneList>
+				<phone>
+					<name>sh+ii</name>
+					<interval>1.13 1.27</interval>
+					<timberScore>62.21</timberScore>
+					<pitch>0 0 0 0 0 0 0 0 0 0 0 0 0 0</pitch>
+					<cumLogProb>-290300</cumLogProb>
+					<rankRatio>0.1428</rankRatio>
+					<competingModel>c+ii ch+ii rh+ii s+ii sh+ii z+ii zh+ii</competingModel>
+					<competingModelLogProb>-321768 -284343 -302172 -304630 -290300 -337137 -312690</competingModelLogProb>
+					<timberScores>62.21 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>ii+sil</name>
+					<interval>1.27 1.46</interval>
+					<timberScore>100</timberScore>
+					<pitch>58.68 58.68 58.16 58.16 58.16 58.16 58.16 58.16 57.66 57.66 58.16 58.16 58.16 58.16 58.68 58.68 59.21 59.21 58.68</pitch>
+					<cumLogProb>-285017</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>a+sil ann+sil e+sil enn+sil er+sil ernn+sil err+sil i+sil ii+sil inn+sil n+sil ng+sil o+sil onn+sil u+sil unn+sil yu+sil</competingModel>
+					<competingModelLogProb>-502875 -484505 -336890 -372587 -369990 -426752 -377935 -341779 -285017 -355714 -367989 -380483 -447055 -459244 -389065 -378679 -334140</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>sp</name>
+					<interval>1.46 1.47</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>si</name>
+			<interval>1.47 1.88</interval>
+			<text>si</text>
+			<timberScore>75.94</timberScore>
+			<pitchScore>5.89</pitchScore>
+			<pitch>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63.49 63.49 63.49 63.49 63.49 63.49 62.81 62.81 62.15 61.52 60.92 60.92 60.33 59.76 59.21 58.68 58.16 57.66 57.17 56.24 55.79 57.17 0</pitch>
+			<volume>0</volume>
+			<timberScores>75.94 -1 -1</timberScores>
+			<phoneNum>3</phoneNum>
+			<phoneList>
+				<phone>
+					<name>s+ii</name>
+					<interval>1.47 1.65</interval>
+					<timberScore>46.54</timberScore>
+					<pitch>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</pitch>
+					<cumLogProb>-384634</cumLogProb>
+					<rankRatio>0.2857</rankRatio>
+					<competingModel>c+ii ch+ii rh+ii s+ii sh+ii z+ii zh+ii</competingModel>
+					<competingModelLogProb>-367398 -398809 -376777 -384634 -397708 -409302 -430782</competingModelLogProb>
+					<timberScores>46.54 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>ii+sil</name>
+					<interval>1.65 1.87</interval>
+					<timberScore>100</timberScore>
+					<pitch>63.49 63.49 63.49 63.49 63.49 63.49 62.81 62.81 62.15 61.52 60.92 60.92 60.33 59.76 59.21 58.68 58.16 57.66 57.17 56.24 55.79 57.17</pitch>
+					<cumLogProb>-393344</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>a+sil ann+sil e+sil enn+sil er+sil ernn+sil err+sil i+sil ii+sil inn+sil n+sil ng+sil o+sil onn+sil u+sil unn+sil yu+sil</competingModel>
+					<competingModelLogProb>-584120 -565557 -456390 -470751 -467333 -532996 -484808 -436369 -393344 -463810 -450596 -461917 -561904 -541756 -481059 -476487 -423351</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>sp</name>
+					<interval>1.87 1.88</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>qiao</name>
+			<interval>1.88 2.31</interval>
+			<text>qiao</text>
+			<timberScore>88.44</timberScore>
+			<pitchScore>1.25</pitchScore>
+			<pitch>0 0 0 0 0 0 0 0 0 0 0 83.21 59.76 59.76 60.92 58.68 57.66 57.17 57.17 56.7 56.24 56.24 56.24 55.79 55.79 55.79 55.79 55.79 55.79 55.79 55.79 55.79 55.79 56.24 56.24 56.24 56.7 56.7 57.17 57.17 57.17 57.17 0</pitch>
+			<volume>0</volume>
+			<timberScores>88.44 -1 -1</timberScores>
+			<phoneNum>5</phoneNum>
+			<phoneList>
+				<phone>
+					<name>c+i</name>
+					<interval>1.88 1.99</interval>
+					<timberScore>68.37</timberScore>
+					<pitch>0 0 0 0 0 0 0 0 0 0 0</pitch>
+					<cumLogProb>-261187</cumLogProb>
+					<rankRatio>0.1</rankRatio>
+					<competingModel>a+i b+i c+i d+i e+i l+i p+i s+i t+i z+i</competingModel>
+					<competingModelLogProb>-342740 -282951 -261187 -277656 -401017 -287557 -266900 -276207 -256234 -264415</competingModelLogProb>
+					<timberScores>68.37 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>i+a</name>
+					<interval>1.99 2.06</interval>
+					<timberScore>100</timberScore>
+					<pitch>83.21 59.76 59.76 60.92 58.68 57.66 57.17</pitch>
+					<cumLogProb>-163974</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>b+a c+a ch+a d+a f+a g+a h+a i+a k+a l+a p+a rh+a s+a sh+a t+a u+a yu+a z+a zh+a</competingModel>
+					<competingModelLogProb>-197649 -193188 -191516 -192587 -193517 -197237 -214013 -163974 -200068 -174525 -193873 -183516 -198746 -193542 -188098 -187974 -212327 -197301 -192197</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>a+u</name>
+					<interval>2.06 2.26</interval>
+					<timberScore>100</timberScore>
+					<pitch>57.17 56.7 56.24 56.24 56.24 55.79 55.79 55.79 55.79 55.79 55.79 55.79 55.79 55.79 55.79 56.24 56.24 56.24 56.7 56.7</pitch>
+					<cumLogProb>-266450</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>a+u b+u c+u ch+u d+u f+u g+u h+u k+u l+u n+u o+u p+u rh+u s+u sh+u t+u z+u zh+u</competingModel>
+					<competingModelLogProb>-266450 -576522 -557286 -535256 -566985 -534468 -537093 -470996 -503598 -375707 -485006 -321882 -541579 -454153 -556690 -529263 -536013 -606659 -556909</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>u+sil</name>
+					<interval>2.26 2.3</interval>
+					<timberScore>65.7</timberScore>
+					<pitch>57.17 57.17 57.17 57.17</pitch>
+					<cumLogProb>-100722</cumLogProb>
+					<rankRatio>0.1176</rankRatio>
+					<competingModel>a+sil ann+sil e+sil enn+sil er+sil ernn+sil err+sil i+sil ii+sil inn+sil n+sil ng+sil o+sil onn+sil u+sil unn+sil yu+sil</competingModel>
+					<competingModelLogProb>-119246 -125741 -145724 -158141 -126973 -172128 -123740 -136635 -143454 -140012 -116727 -110527 -108379 -96809 -100722 -99331 -156398</competingModelLogProb>
+					<timberScores>65.7 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>sp</name>
+					<interval>2.3 2.31</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>ming</name>
+			<interval>2.31 2.69</interval>
+			<text>ming</text>
+			<timberScore>89.8</timberScore>
+			<pitchScore>0.09</pitchScore>
+			<pitch>57.66 57.66 57.66 57.66 57.66 57.66 57.17 57.17 57.17 57.17 57.17 56.7 56.7 56.7 56.24 56.24 56.24 56.24 56.7 56.7 56.7 56.24 56.24 56.24 56.7 57.17 57.17 57.66 57.17 58.16 57.66 58.16 58.16 58.68 59.21 59.76 60.33 0</pitch>
+			<volume>0</volume>
+			<timberScores>89.8 -1 -1</timberScores>
+			<phoneNum>4</phoneNum>
+			<phoneList>
+				<phone>
+					<name>m+inn</name>
+					<interval>2.31 2.4</interval>
+					<timberScore>100</timberScore>
+					<pitch>57.66 57.66 57.66 57.66 57.66 57.66 57.17 57.17 57.17</pitch>
+					<cumLogProb>-168694</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>ann+inn enn+inn m+inn n+inn</competingModel>
+					<competingModelLogProb>-289677 -305899 -168694 -179073</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>inn+ng</name>
+					<interval>2.4 2.57</interval>
+					<timberScore>100</timberScore>
+					<pitch>57.17 57.17 56.7 56.7 56.7 56.24 56.24 56.24 56.24 56.7 56.7 56.7 56.24 56.24 56.24 56.7 57.17</pitch>
+					<cumLogProb>-277426</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>a+ng ann+ng b+ng c+ng ch+ng d+ng f+ng g+ng h+ng i+ng inn+ng k+ng l+ng m+ng n+ng o+ng onn+ng p+ng rh+ng s+ng sh+ng t+ng u+ng yu+ng z+ng zh+ng</competingModel>
+					<competingModelLogProb>-480161 -468592 -492647 -470284 -465474 -476866 -493410 -518606 -444563 -310112 -277426 -499187 -384125 -384252 -373029 -436997 -498978 -460902 -391728 -531753 -465440 -469656 -450919 -350688 -500484 -486651</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>ng+sil</name>
+					<interval>2.57 2.68</interval>
+					<timberScore>65.7</timberScore>
+					<pitch>57.17 57.66 57.17 58.16 57.66 58.16 58.16 58.68 59.21 59.76 60.33</pitch>
+					<cumLogProb>-198752</cumLogProb>
+					<rankRatio>0.1176</rankRatio>
+					<competingModel>a+sil ann+sil e+sil enn+sil er+sil ernn+sil err+sil i+sil ii+sil inn+sil n+sil ng+sil o+sil onn+sil u+sil unn+sil yu+sil</competingModel>
+					<competingModelLogProb>-264538 -255552 -246464 -211298 -252368 -223953 -241393 -198312 -203205 -204521 -191109 -198752 -263112 -263407 -222547 -218147 -217188</competingModelLogProb>
+					<timberScores>65.7 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>sp</name>
+					<interval>2.68 2.69</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>yue</name>
+			<interval>2.69 3.04</interval>
+			<text>yue</text>
+			<timberScore>100</timberScore>
+			<pitchScore>0.09</pitchScore>
+			<pitch>60.92 61.52 61.52 61.52 62.15 62.15 62.15 62.15 62.15 62.15 61.52 61.52 61.52 60.92 60.92 60.92 60.33 59.76 59.76 59.21 58.16 57.66 57.66 57.17 56.7 56.24 55.79 55.35 55.35 55.35 55.35 54.92 54.92 54.92 0</pitch>
+			<volume>0</volume>
+			<timberScores>100 -1 -1</timberScores>
+			<phoneNum>3</phoneNum>
+			<phoneList>
+				<phone>
+					<name>yu+e</name>
+					<interval>2.69 2.77</interval>
+					<timberScore>100</timberScore>
+					<pitch>60.92 61.52 61.52 61.52 62.15 62.15 62.15 62.15</pitch>
+					<cumLogProb>-163269</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>b+e d+e f+e g+e h+e i+e l+e p+e s+e sh+e u+e yu+e z+e zh+e</competingModel>
+					<competingModelLogProb>-222700 -243683 -223166 -194857 -187282 -169964 -193168 -192826 -230418 -223413 -195029 -163269 -259645 -203126</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>e+sil</name>
+					<interval>2.77 3.03</interval>
+					<timberScore>100</timberScore>
+					<pitch>62.15 62.15 61.52 61.52 61.52 60.92 60.92 60.92 60.33 59.76 59.76 59.21 58.16 57.66 57.66 57.17 56.7 56.24 55.79 55.35 55.35 55.35 55.35 54.92 54.92 54.92</pitch>
+					<cumLogProb>-438099</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>a+sil ann+sil e+sil enn+sil er+sil ernn+sil err+sil i+sil ii+sil inn+sil n+sil ng+sil o+sil onn+sil u+sil unn+sil yu+sil</competingModel>
+					<competingModelLogProb>-616110 -619896 -438099 -474601 -517377 -588248 -518483 -535138 -502842 -499463 -548844 -538518 -576215 -623465 -567404 -516524 -489446</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>sp</name>
+					<interval>3.03 3.04</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>ye</name>
+			<interval>3.04 3.52</interval>
+			<text>ye</text>
+			<timberScore>100</timberScore>
+			<pitchScore>0.16</pitchScore>
+			<pitch>56.24 57.66 57.17 57.66 58.68 59.21 59.76 60.33 60.33 60.92 60.92 60.92 60.92 60.92 60.92 60.92 60.33 60.33 59.76 59.76 59.21 59.21 58.68 58.68 58.16 57.66 56.7 55.79 55.35 54.51 54.51 52.19 55.79 56.24 58.16 58.16 58.16 55.35 55.35 58.16 59.21 58.16 58.68 58.68 58.68 0 0 0</pitch>
+			<volume>0</volume>
+			<timberScores>100 -1 -1</timberScores>
+			<phoneNum>3</phoneNum>
+			<phoneList>
+				<phone>
+					<name>i+e</name>
+					<interval>3.04 3.28</interval>
+					<timberScore>100</timberScore>
+					<pitch>56.24 57.66 57.17 57.66 58.68 59.21 59.76 60.33 60.33 60.92 60.92 60.92 60.92 60.92 60.92 60.92 60.33 60.33 59.76 59.76 59.21 59.21 58.68 58.68</pitch>
+					<cumLogProb>-398533</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>b+e d+e f+e g+e h+e i+e l+e p+e s+e sh+e u+e yu+e z+e zh+e</competingModel>
+					<competingModelLogProb>-647728 -717886 -707328 -620756 -559137 -398533 -512682 -578518 -621814 -637771 -568230 -460019 -702683 -597213</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>e+sil</name>
+					<interval>3.28 3.49</interval>
+					<timberScore>100</timberScore>
+					<pitch>58.16 57.66 56.7 55.79 55.35 54.51 54.51 52.19 55.79 56.24 58.16 58.16 58.16 55.35 55.35 58.16 59.21 58.16 58.68 58.68 58.68</pitch>
+					<cumLogProb>-375049</cumLogProb>
+					<rankRatio>0</rankRatio>
+					<competingModel>a+sil ann+sil e+sil enn+sil er+sil ernn+sil err+sil i+sil ii+sil inn+sil n+sil ng+sil o+sil onn+sil u+sil unn+sil yu+sil</competingModel>
+					<competingModelLogProb>-499701 -511189 -375049 -378792 -447152 -467686 -460624 -429696 -449201 -407423 -431913 -420616 -448237 -480298 -436367 -408421 -433135</competingModelLogProb>
+					<timberScores>100 -1 -1</timberScores>
+				</phone>
+				<phone>
+					<name>sp</name>
+					<interval>3.49 3.52</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0 0 0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+		<node>
+			<name>sil</name>
+			<interval>3.52 4.98</interval>
+			<text>sil</text>
+			<timberScore>-1</timberScore>
+			<pitchScore>-1</pitchScore>
+			<pitch>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</pitch>
+			<volume>0</volume>
+			<timberScores>-1 -1 -1</timberScores>
+			<phoneNum>1</phoneNum>
+			<phoneList>
+				<phone>
+					<name>sil</name>
+					<interval>3.52 4.98</interval>
+					<timberScore>-1</timberScore>
+					<pitch>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</pitch>
+					<cumLogProb>0</cumLogProb>
+					<rankRatio>-1</rankRatio>
+					<competingModel></competingModel>
+					<competingModelLogProb></competingModelLogProb>
+					<timberScores>-1 -1 -1</timberScores>
+				</phone>
+			</phoneList>
+		</node>
+	</nodeList>
+</confidenceMeasure>
