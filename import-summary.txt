@@ -1,0 +1,64 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .classpath.bak
+* .project.bak
+* default.properties
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => TomatoshootGame\src\main\AndroidManifest.xml
+* assets\ => TomatoshootGame\src\main\assets\
+* libs\armeabi\libgdx.so => TomatoshootGame\src\main\jniLibs\armeabi\libgdx.so
+* libs\armeabi\libNativeasraInt.so => TomatoshootGame\src\main\jniLibs\armeabi\libNativeasraInt.so
+* libs\Hami_Apps_SDK_V1.06_20110621.jar => TomatoshootGame\libs\Hami_Apps_SDK_V1.06_20110621.jar
+* res\ => TomatoshootGame\src\main\res\
+* src\ => TomatoshootGame\src\main\java\
+* src\org\cocos2d.7z => TomatoshootGame\src\main\resources\org\cocos2d.7z
+* src\org\cocos2d\actions\camera\CCCameraAction.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\actions\camera\CCCameraAction.java.bak
+* src\org\cocos2d\Cocos2D.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\Cocos2D.java.bak
+* src\org\cocos2d\menus\CCMenu.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\menus\CCMenu.java.bak
+* src\org\cocos2d\menus\CCMenuItem.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\menus\CCMenuItem.java.bak
+* src\org\cocos2d\menus\CCMenuItemSprite.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\menus\CCMenuItemSprite.java.bak
+* src\org\cocos2d\nodes\CCDirector.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\nodes\CCDirector.java.bak
+* src\org\cocos2d\nodes\CCSpriteFrameCache.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\nodes\CCSpriteFrameCache.java.bak
+* src\org\cocos2d\particlesystem\CCParticleExamples.h => TomatoshootGame\src\main\resources\org\cocos2d\particlesystem\CCParticleExamples.h
+* src\org\cocos2d\particlesystem\CCParticleExamples.m => TomatoshootGame\src\main\resources\org\cocos2d\particlesystem\CCParticleExamples.m
+* src\org\cocos2d\particlesystem\CCParticleFire.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\particlesystem\CCParticleFire.java.bak
+* src\org\cocos2d\particlesystem\CCParticleMeteor.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\particlesystem\CCParticleMeteor.java.bak
+* src\org\cocos2d\particlesystem\CCParticleSnow.java.bak => TomatoshootGame\src\main\resources\org\cocos2d\particlesystem\CCParticleSnow.java.bak
+* src\org\cocos2d\particlesystem\CCParticleSystem.h => TomatoshootGame\src\main\resources\org\cocos2d\particlesystem\CCParticleSystem.h
+* src\org\cocos2d\particlesystem\CCParticleSystem.m => TomatoshootGame\src\main\resources\org\cocos2d\particlesystem\CCParticleSystem.m
+* src\org\cocos2d\tags => TomatoshootGame\src\main\resources\org\cocos2d\tags
+* src\org\mirlab\SpeechRecognition\.DS_Store => TomatoshootGame\src\main\resources\org\mirlab\SpeechRecognition\.DS_Store
+* src\org\mirlab\SpeechRecognition\pitchRecorder.java.bak => TomatoshootGame\src\main\resources\org\mirlab\SpeechRecognition\pitchRecorder.java.bak
+* src\org\mirlab\SpeechRecognition\wordRecRecorder.java.bak => TomatoshootGame\src\main\resources\org\mirlab\SpeechRecognition\wordRecRecorder.java.bak
+* src\org\mirlab\tomatoshoot\.DS_Store => TomatoshootGame\src\main\resources\org\mirlab\tomatoshoot\.DS_Store
+* src\org\mirlab\tomatoshoot\SetGameItemLayer.java.bak => TomatoshootGame\src\main\resources\org\mirlab\tomatoshoot\SetGameItemLayer.java.bak
+* next.WAV => next.wav
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
