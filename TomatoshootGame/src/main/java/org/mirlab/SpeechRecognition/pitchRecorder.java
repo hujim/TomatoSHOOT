@@ -54,8 +54,9 @@ public class pitchRecorder implements Runnable {
 	private FileWriter gpxwriter;
 	private int r_start=0;
 	private int r_end=0;
-	private double zcr_threshold=650;
+	private double zcr_threshold=250;
 	private int shot_interval=0;
+	private int zcr_len=4;
 	
 	//ship
 	private double front_avg=0;
@@ -214,11 +215,12 @@ public class pitchRecorder implements Runnable {
 			setVol(frame2volume(buffer, bufferRead));
 			volume_record[valume_record_idx]=getVol();
 			zcr_record[valume_record_idx++]=zcr;
-			valume_record_idx%=4;			
+			valume_record_idx%=zcr_len;
 			calc_avg();
 			
 			//Log.d("@@@@@","@@@@@" + this.getVol());
-			
+			//Log.d("@@@@@","@@@@@" + zcr);
+
 			if (this.computeMeanVol) {
 				if (this.outputToFile) {
 					volTemp[0] = getVol();
@@ -244,11 +246,11 @@ public class pitchRecorder implements Runnable {
 			        }
 	
 	        		int i;
-	        		for (i=0;i<4;i++){
+	        		for (i=0;i<zcr_len;i++){
 	        			if(zcr_record[i]>zcr_threshold)
 	        				break;        				
 	        		}
-	                if(i!=4){	//show
+	                if(i!=zcr_len){	//show
 	                	shotting=true;
 	                	if(shot_interval>=2){
 	                    	Log.e("shut","showwwww");

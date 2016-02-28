@@ -285,13 +285,13 @@ public class TomatoshootGame extends Activity implements OnKeyListener
 			        	tomatoFighter.setWeaponStatus(1, 1);
 			        	tomatoFighter.setPlayerLevel(14);
 						
-//						tomatoFighter.setGameStatus(1, 1);
-//						tomatoFighter.setGameStatus(2, 1);
-//						tomatoFighter.setGameStatus(3, 1);
-//						tomatoFighter.setGameStatus(4, 1);
-//						tomatoFighter.setGameStatus(5, 1);
-//						tomatoFighter.setGameStatus(6, 1);
-//						tomatoFighter.setGameStatus(7, 1);
+						tomatoFighter.setGameStatus(1, 1);
+						tomatoFighter.setGameStatus(2, 1);
+						tomatoFighter.setGameStatus(3, 1);
+						tomatoFighter.setGameStatus(4, 1);
+						tomatoFighter.setGameStatus(5, 1);
+						tomatoFighter.setGameStatus(6, 1);
+						tomatoFighter.setGameStatus(7, 1);
 //						tomatoFighter.setPlayerLevel(4);
 //						tomatoFighter.setWeaponStatus(1, 1);
 						saveFighter();
